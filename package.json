@@ -1,18 +1,14 @@
 {
 	"name": "@nasa-jpl/aerie-monaco-editor-customizations",
-	"version": "0.1.0",
-	"vscode": "4b8a47f3570a4a05ace9d00ae0df044b55befcd5",
+	"version": "0.1.1",
 	"private": true,
 	"description": "Customizations to the monaco editor for EDSL diagnostics",
 	"author": "JPL Aerie Development Team",
 	"license": "MIT",
 	"scripts": {
-		"build-website": "ts-node ./build/website && npm run typedoc",
 		"import-typescript": "ts-node ./build/importTypescript",
 		"build": "ts-node ./build/build"
 	},
-	"typings": "./esm/vs/editor/editor.api.d.ts",
-	"module": "./esm/vs/editor/editor.main.js",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/NASA-AMMOS/aerie-monaco-editor-customizations"

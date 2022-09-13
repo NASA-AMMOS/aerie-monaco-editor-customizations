@@ -1,7 +1,6 @@
 {
 	"name": "@nasa-jpl/aerie-monaco-editor-customizations",
-	"version": "0.1.1",
-	"private": true,
+	"version": "0.1.2",
 	"description": "Customizations to the monaco editor for EDSL diagnostics",
 	"author": "JPL Aerie Development Team",
 	"license": "MIT",
